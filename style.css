@@ -1,5 +1,6 @@
 body{
     font-size: 12px;
+    background-color: #272727;
 }
 
 .sf-gray-primary{
@@ -10,15 +11,47 @@ body{
     background-color: #272727;
 }
 
+.sf-playlist{
+    background-color: #171717;
+}
+
+.sf-dropdown{
+    background-color: #171717;
+    color: white;
+    font-size: 12px;
+}
+
+.sf-dropdown:hover{
+    color: white;
+}
+
+.sf-dropdown-menu{
+    background-color: #272727;
+    color: white;
+}
+
+.sf-dropdown-item{
+    background-color: #272727;
+    color: white;
+    font-size: 12px;
+}
+
+.sf-dropdown-item:hover{
+    background-color: #151515;
+    color: white;
+}
+
 .sf-btn-primary{
     background-color: #00c358;
     border-radius: 20px;
+    font-size: 10px;
 }
 
 .sf-btn-default{
     background-color: #151515;
     border: 1px solid white;
     border-radius: 20px;
+    font-size: 10px;
 }
 
 .sf-list-group-item{
@@ -26,16 +59,45 @@ body{
     color: white;  
 }
 
+.sf-list-group-item:hover{
+    background-color: #272727;
+    color: white;  
+}
+
 .sf-input{
     border-radius: 20px;
     border: none;
+    font-size: 10px;
+}
+
+.sf-name-music{
+    color: white;
+    font-size: 12px;
 }
 
 .title{
     color: white;
 }
 
+.fa{
+    font-size: 16px;
+}
+
 label{
     color: white;
     font-size: 9px;
+}
+
+th{
+    border: none !important;
+}
+
+td, tr{
+    color: white;
+    font-size: 14px;
+    border-color: #272727 !important;
+}
+
+tr:hover{
+    background-color: #272727;
 }
