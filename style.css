@@ -91,6 +91,19 @@ body{
     color: white;
 }
 
+.sf-link{
+    font-size: 14px;
+    color: white;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.sf-link:hover{
+    color: white;
+    text-decoration: none;
+    border-bottom: 2px #00c358 solid; 
+}
+
 .title{
     color: white;
 }
