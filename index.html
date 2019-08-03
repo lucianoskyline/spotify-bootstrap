@@ -1,20 +1,75 @@
 <html>
     <head>
         <title>Spotify</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"/>
+        <link rel="stylesheet" href="style.css"/>
     </head>
     <body>
-        <div class="container">
+        <div class="container-fluid">
             <div class="row">
-                <div class="col-2">
-
+                <div class="col-2 sf-gray-primary">
+                    <ul class="list-group">
+                        <li class="list-group-item sf-list-group-item">Inicio</li>
+                        <li class="list-group-item sf-list-group-item">Explorar</li>
+                        <li class="list-group-item sf-list-group-item">Radio</li>
+                    </ul>    
+                    <label>SUA BIBLIOTECA</label>                
+                    <ul class="list-group">
+                        <li class="list-group-item sf-list-group-item">Especialmente para você</li>
+                        <li class="list-group-item sf-list-group-item">Escutado recentimente</li>
+                        <li class="list-group-item sf-list-group-item">Canções que você gostou</li>
+                        <li class="list-group-item sf-list-group-item">Albuns</li>
+                        <li class="list-group-item sf-list-group-item">Artistas</li>
+                        <li class="list-group-item sf-list-group-item">Podcasts</li>
+                    </ul>
                 </div>
-                <div class="col-10">
+                <div class="col-8 sf-gray-secondary">
+                    <div class="row">
+                        <div class="col-3">
+                            <input class="form-control sf-input" placeholder="Metallica"/>
+                        </div>
+                        <div class="col-3">
+                            <button class="btn btn-success btn-block sf-btn-default">Melhore sua conta</button>
+                        </div>       
+                        <div class="col-2">
+                            <a>Luciano Lopes</a>
+                        </div>                 
+                    </div>
+                    <br/>
 
+                    <div class="row">
+                        <div class="col-4">
+                            <h4 class="title">Metallica</h4>
+                        </div>
+                        <div class="col-2">
+                            <button class="btn btn-success btn-block sf-btn-primary">PAUSAR</button>
+                        </div>
+                        <div class="col-2">
+                            <button class="btn btn-success btn-block sf-btn-default">SEGUIR</button>
+                        </div>       
+                        <div class="col-2">
+                            <button class="btn btn-success sf-btn-default">...</button>
+                        </div>                  
+                    </div>
+
+                    <div class="row">
+                        <div class="col-12">
+
+                        </div>
+                    </div>
                 </div>
-                <div class="col-2">
-
+                <div class="col-2 sf-gray-primary">
+                    <div style="text-align: center">
+                        <h4 class="title">Veja o que seus amigos estão ouvindo</h4>
+                        <button class="btn btn-success sf-btn-default">ENCONTRAR AMIGOS</button>        
+                    </div>
                 </div>
             </div>
         </div>
+
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     </body>
 </html>

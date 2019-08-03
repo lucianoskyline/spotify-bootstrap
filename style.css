@@ -1,3 +1,7 @@
+body{
+    font-size: 12px;
+}
+
 .sf-gray-primary{
     background-color: #121212;
 }
@@ -8,8 +12,30 @@
 
 .sf-btn-primary{
     background-color: #00c358;
+    border-radius: 20px;
 }
 
 .sf-btn-default{
     background-color: #151515;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+
+.sf-list-group-item{
+    background-color: #121212;
+    color: white;  
+}
+
+.sf-input{
+    border-radius: 20px;
+    border: none;
+}
+
+.title{
+    color: white;
+}
+
+label{
+    color: white;
+    font-size: 9px;
 }
