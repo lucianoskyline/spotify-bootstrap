@@ -47,6 +47,11 @@ body{
     font-size: 10px;
 }
 
+.sf-btn-play{
+    color: white;
+    font-size: 22px !important;
+}
+
 .sf-btn-default{
     background-color: #151515;
     border: 1px solid white;
@@ -75,6 +80,17 @@ body{
     font-size: 12px;
 }
 
+.sf-progress{
+    height: 0.2rem;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.sf-btn-control{
+    background-color: #272727;
+    color: white;
+}
+
 .title{
     color: white;
 }
@@ -90,6 +106,7 @@ label{
 
 th{
     border: none !important;
+    font-size: 10px;
 }
 
 td, tr{
